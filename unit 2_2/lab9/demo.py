@@ -114,6 +114,20 @@ is_sun_shining = False
 # kod uzupełnień do dwóch !!!! wyjasnia dlaczego ~5 = - 6
 # poczytać o +0 i -0 !!!
 
-for i in range(5, -6, -1):
-    print("{0:08b}=>{1:d}".format(i & 255, i))  # !!!!!
+# for i in range(5, -6, -1):
+#     print("{0:08b}=>{1:d}".format(i & 255, i))  # !!!!!
 
+a = 3
+b = 4
+c = 7
+
+print(a < b < c)
+print(a < b and b < c)
+
+
+def get(a):
+    print("!!!!!!!")
+    return a
+
+# print(a < get(b) < c)
+# print(a < get(b) and get(b) < c)
