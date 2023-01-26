@@ -1,21 +1,20 @@
+# Zad1.
 # Napisz skrypt sprawdzający czy pierwiastek kwadratowy z liczby całkowitej
 # pobranej od użytkownika jest także liczbą całkowitą.
 
 number = int(input("Podaj liczbę całkowitą: "))
 
-if number ** .5 % 1 == 0:  # .is int
-    print("Tak, wynik z pierwiastka kwadratowego z liczby " + str(number) + " jest również liczbą całkowitą. ")
+if number ** .5 % 1 == 0:
+    str1 = "Tak"
+    str2 = ""
 else:
-    print("Nie, wynik z pierwiastka kwadratowego z liczby " + str(number) + ", nie jest liczbą całkowitą. ")
+    str1 = "Nie"
+    str2 = "nie"
 
-# number = int(input("Podaj liczbę całkowitą: "))
-#
+print(str1 + ", pierwiastek kwadratowy z liczby "+ str(number) , str2 + " jest liczbą całkowitą.")
+
+
 # if number ** .5 % 1 == 0:  # .is int
-#     str1= "Tak"
-#     str2= ""
+#     print("Tak, wynik z pierwiastka kwadratowego z liczby " + str(number) + " jest również liczbą całkowitą. ")
 # else:
-#     str1 ="Nie"
-#     str2="nie"
-#
-# print(str1+", pierwiastek kwadratowy z liczby " + str2 + "jest liczbą całkowitą.")
-#
+#     print("Nie, wynik z pierwiastka kwadratowego z liczby " + str(number) + ", nie jest liczbą całkowitą. ")
