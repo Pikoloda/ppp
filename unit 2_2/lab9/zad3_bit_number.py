@@ -1,4 +1,4 @@
-# zad3.
+# Zad3.
 # Napisz program wyznaczający wartość n-tego bitu dla dowolnej liczby
 # całkowitej. Bity liczymy od 0, od najmniej znaczącego bitu
 

@@ -1,4 +1,4 @@
-# zad1.
+# Zad1.
 # Wyświetl tylko liczby podzielne przez 3, 5 lub 7, ze zbioru liczb z zakresu
 # określonego przez użytkownika
 

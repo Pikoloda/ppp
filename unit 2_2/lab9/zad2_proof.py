@@ -1,4 +1,4 @@
-# zad2.
+# Zad2.
 # Udowodnij, że w zbiorze liczb z zakresu 1-100, jest 11 liczb, które są
 # parzyste i jednocześnie większe od 90, a gdy są nieparzyste, to
 # przynajmniej dzielą się przez 9
