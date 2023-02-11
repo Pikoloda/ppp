@@ -1,5 +1,5 @@
-# Napisz program, który zasymuluje 16 rzutów kostką do gry a następnie
-# wyświetli poniższe informacje:
+# Zad2.
+# Napisz program, który zasymuluje 16 rzutów kostką do gry, a następnie wyświetli poniższe informacje:
 # • zestaw wylosowanych wyników,
 # • wyrzucaną wartość za 8 razem,
 # • liczbę wyrzuconych szóstek,
@@ -22,7 +22,7 @@ sixes_total = 0
 for roll in rolls:
     if roll == 6:
         sixes_total += 1
-print("Wyrzuconych", sixes_total, "razy szóstkę.")
+print("Wyrzucono", sixes_total, "razy szóstkę.")
 
 in_row_value_tmp = rolls[0]
 in_row_total_tmp = 0
