@@ -12,7 +12,7 @@ print(pow([1, 2, 3], 2))
 
 print(pow([2, 11, 5], 5))
 
-
+9
 # druga opcja
 
 def pow2(numbers, exponent):
