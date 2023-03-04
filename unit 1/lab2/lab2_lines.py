@@ -1,0 +1,1 @@
+print("Te trzy inie tekstu\nzostały wyświetlone\nza pomocą jednej instrukcji.")

@@ -1,0 +1,7 @@
+# print("deefr")
+# print("A", "B", sep="\n", end=" ")
+# print("C", "D", sep="\n", end=" ")
+# print("E", "F", sep="\n", end=" ")
+print("\n\nabc\t\n\n\nabc")
+print("\\")
+# print("Q" * 3)
