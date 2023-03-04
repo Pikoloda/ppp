@@ -1,8 +1,8 @@
-# Zad3.
+# Zad3_lab15
 # Zabezpiecz program zliczający punkty w grach (moduł 14, lab 3) przed
 # wprowadzaniem błędnych danych przez użytkownika.
 
-# Zad3.
+# Zad3_lab14
 # Napisz program zliczający punkty w grach (karcianych, planszowych itp.), realizujący:
 # • definiowanie liczby oraz imion graczy,
 # • definiowanie liczby punktów potrzebnych do wygranej,
@@ -32,7 +32,7 @@ def define_players():
 
 
 def define_win_points():
-    return int(input("Zdefiniuj liczbę punktów wygranej: "))
+    return fetch_and_validate_int("Zdefiniuj liczbę punktów wygranej: ")
 
 
 def is_winner(players, win_points):
