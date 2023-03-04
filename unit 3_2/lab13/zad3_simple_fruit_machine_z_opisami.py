@@ -7,11 +7,16 @@
 # • przemyśl jak dużo zmian trzeba wprowadzić w skrypcie, aby losować z większego zbioru liter, a także
 # większą liczbę liter
 
+
+
 import random
 
+
+# print(ord("A"))
+# print(chr(65))
 FIRST_SYMBOL = "A"
 LAST_SYMBOL = "H"
-NUMBER_OF_LETTERS = 3
+NUMBER_OF_LETTERS = 8
 
 # losowanie jednej litery
 
@@ -33,7 +38,7 @@ def check(row):
             return False
     return True
 
-# zaczynamy losowanie
+# zaczynamy losowanie , w pętli while
 
 counter = 1
 while True:
@@ -43,3 +48,7 @@ while True:
         break
     counter += 1
 
+
+ # przemyśl jak dużo zmian trzeba wprowadzić w skrypcie, aby losować z większego zbioru liter, a także
+# większą liczbę liter.
+#   zmiany w każdej def
