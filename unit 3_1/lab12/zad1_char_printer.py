@@ -1,3 +1,8 @@
+# Zad1.
+# Napisz funkcję, której zadaniem będzie wyświetlić na ekranie dowolny znak, dowolną
+# ilość razy, w poziomie lub w pionie.
+
+
 def print_char(character="*", rep=10, vert=False):
     for i in range(rep):
         if vert:
@@ -8,6 +13,7 @@ def print_char(character="*", rep=10, vert=False):
         print()
     print()
 
+# Sprawdzenie, 3 przykłady
 
 print_char()
 print_char("+", 5, True)
