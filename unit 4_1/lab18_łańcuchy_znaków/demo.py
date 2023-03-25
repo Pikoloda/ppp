@@ -102,10 +102,10 @@
 # print(ord("a"))
 # print(ord("z"))
 
-alphabet = ""
-
-for i in range(ord("a"),ord("z")+1):
-    alphabet += chr(i)
+# alphabet = ""
+#
+# for i in range(ord("a"),ord("z")+1):
+#     alphabet += chr(i)
 
 # print(alphabet)
 # print()
