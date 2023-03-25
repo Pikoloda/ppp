@@ -1,0 +1,1 @@
+print("Inicjalizacja podpakietu subpack1")
