@@ -14,8 +14,6 @@ def reverse_key_and_value(dir):
     return new_dict
 
 
-
-
 animals_dict = {
     "kot": "cat",
     "pies": "dog",
