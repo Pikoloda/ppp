@@ -6,12 +6,13 @@
 def str(char):
     dirt ={}
     for el in char:
-        print(el, end=" ")
         dirt[el] = char.count(el)
     return dirt
 
 print(str("asdadaasasfasfawfa"))
-
-
-
+print(str("Ala ma kota i kot ma Ale."))
+# Lista l = [1, 2, 3] l[0] - list
+# krotka t = (1, 2, 3) t[1] - tuple
+# słownika d = {"a" : 1, "b" : 2} - dict
+# ciąg znaków s = "abcde" - string
 
