@@ -15,8 +15,11 @@ class Book:
         print("tytuł:", self.__title, "autor:",self.__author)
 
     def show_full_info(self):
-        print("tytuł:", self.__title, "autor:", self.__author, "wydawca:", self.__publisher, "rok wydania:", self.__year)
-
+        print("tytuł:", self.__title)
+        print("autor:", self.__author)
+        print("wydawca:", self.__publisher)
+        print("rok wydania:", self.__year)
+        print()
 
 book = []
 book.append(Book("Dzieci z Bullerbyn", "Astrid Lindgren", "Nasza Księgarnia",2014))
