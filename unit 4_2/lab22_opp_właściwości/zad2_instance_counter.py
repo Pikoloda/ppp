@@ -11,9 +11,8 @@ class C:
         return C.counter
 
 
-
 # Test
 for i in range(100):
     obj = C()
 
-print("Utworzono obiektów: ",obj.counter)
+print("Utworzono obiektów: ", obj.counter)
