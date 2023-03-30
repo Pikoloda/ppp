@@ -14,6 +14,7 @@ def count_letter(string):
     return stats
 
 
+# Test
 print(count_letter("asdadaasasfasfawfa"))
 print(count_letter("abcd"))
 print(count_letter("Ala ma kota i kot ma Ale."))

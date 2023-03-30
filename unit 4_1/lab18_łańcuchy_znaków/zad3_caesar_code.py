@@ -6,16 +6,6 @@
 
 delta = 3
 
-# for i in range(ord("A"), ord("Z") + 1):
-#     print(chr(i), end="")
-#
-# print()
-#
-# for i in range(ord("A") + delta, ord("Z") + 1 + delta):
-#     if i > ord("Z"):
-#         i -= ord("Z") - ord("A") + 1
-#     print(chr(i), end="")
-
 
 def decode_letter(letter, delta):
     if letter < "A" or letter > "Z":
@@ -26,8 +16,8 @@ def decode_letter(letter, delta):
     return chr(n)
 
 
-
 print()
+
 
 # Testy
 # print(decode_letter("J", delta))
@@ -36,12 +26,10 @@ print()
 def decode(string, delta):
     decoded = ""
     for char in string:
-        decoded += decode_letter(char,delta)
+        decoded += decode_letter(char, delta)
     return decoded
 
-# Przykłady
 
+# Test
 print(decode("VCBIU", delta))
-print(decode("VWXGLD SRGBSORPRZH - SURJUDPLVWD SBWKRQ",delta))
-
-
+print(decode("VWXGLD SRGBSORPRZH - SURJUDPLVWD SBWKRQ", delta))

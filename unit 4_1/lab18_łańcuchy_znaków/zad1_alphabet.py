@@ -2,7 +2,7 @@
 # Wyświetl polski alfabet (tylko małe litery, także litery ze znakami diakrytycznymi)
 # wraz z punktami kodowymi dla każdej litery.
 
-alphabet = "abcdefghijklmnopqrstuvwxyząćęłńóśźż" # po kolei wkleić !!
+alphabet = "aąbcćdeęfghijklłmnńoóprsśtuwyzźż"
 
 for c in alphabet:
-    print(c,"->", ord(c))
+    print(c, "->", ord(c))
