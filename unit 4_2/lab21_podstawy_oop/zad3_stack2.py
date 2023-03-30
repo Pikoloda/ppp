@@ -1,5 +1,12 @@
+# Zad3.
+# Rozbuduj klasę Stack o następujące metody:
+# • empty() - powinna zwracać True jeżeli stos jest pusty, w przeciwnym wypadku zwracać False,
+# • size() - powinna zwracać rozmiar stosu,
+# • top() - powinna zwracać "górny" element stosu, czyli ten, który zostanie "ściągnięty"
+# metodą pop().
+
 class Stack:  # definiujemy klasę stosu
-    def __init__(self):  # definiujemt konstruktor
+    def __init__(self):  # definiujemy konstruktor
         self.__stack_list = []
 
     def push(self, val):

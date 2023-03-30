@@ -35,34 +35,34 @@ class StackSum(Stack): # dziedziczenie w nawiasach po tej klasie wszystkich wła
 # --------------------------------------------------
 
 
-#
-# obj = StackSum()
-# obj2 = StackSum()
-# obj3 = StackSum()
-#
-# print("Umieszczamy elementy na stosach!")
-#
-# obj.push(3)
-# obj.push(2)
-# obj.push(1)
-#
-# obj2.push(4)
-# obj2.push(4)
-# obj2.push(4)
-#
-# print("stos 1", obj.get_sum())
-# print("stos 2", obj2.get_sum())
-# print()
-#
-# print("Ściągamy elemnty ze stosu!")
-#
-# print(obj2.pop())
-# print(obj2.pop())
-# print(obj2.pop())
-#
-# print()
-#
-#
+
+obj = StackSum()
+obj2 = StackSum()
+obj3 = StackSum()
+
+print("Umieszczamy elementy na stosach!")
+
+obj.push(3)
+obj.push(2)
+obj.push(1)
+
+obj2.push(4)
+obj2.push(4)
+obj2.push(4)
+
+print("stos 1", obj.get_sum())
+print("stos 2", obj2.get_sum())
+print()
+
+print("Ściągamy elemnty ze stosu!")
+
+print(obj2.pop())
+print(obj2.pop())
+print(obj2.pop())
+
+print()
+
+
 #
 # print()
 #

@@ -1,21 +1,12 @@
+# Zad2.
+# Korzystając z napisanej wcześniej klasy Stack:
+# • utwórz 3 stosy (3 obiekty klasy Stack),
+# • połóż na pierwszym stosie kolejno liczby od 1 do 100,
+# • ściągaj kolejne elementy (liczby) z pierwszego stosu i umieszczaj na drugim,
+# • ściągaj kolejne elementy z drugiego stosu i umieszczaj na trzecim,
+# • ściągaj i wyświetlaj w tej samej linii elementy z trzeciego stosu.
+
 from stack_oop import Stack
-
-
-# class Stack:  # definiujemy klasę stosu
-#     def __init__(self):  # definiujemt konstruktor
-#         self.__stack_list = []
-#
-#     def push(self, val):
-#         self.__stack_list.append(val)
-#
-#     def pop(self):
-#         val = self.__stack_list[-1]
-#         del self.__stack_list[-1]
-#         return val
-#
-#     def show_all_element(self):
-#         print(self.__stack_list)
-
 
 s1 = Stack()
 s2 = Stack()
